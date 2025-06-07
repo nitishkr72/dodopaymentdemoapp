@@ -10,13 +10,22 @@
     "test": "jest"
   },
   "dependencies": {
+    "dodopayment-sdk-react-native": "^0.3.1",
     "react": "19.0.0",
-    "react-native": "0.79.3"
+    "react-native": "0.79.3",
+    "react-native-code-push": "^9.0.1",
+    "react-native-gesture-handler": "^2.25.0",
+    "react-native-hyperswitch-kount": "^0.1.0",
+    "react-native-inappbrowser-reborn": "^3.7.0",
+    "react-native-pager-view": "^6.8.1",
+    "react-native-safe-area-context": "^5.4.1",
+    "react-native-screens": "^4.11.1",
+    "react-native-svg": "^15.12.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
-    "@babel/runtime": "^7.25.0",
+    "@babel/runtime": "^7.27.6",
     "@react-native-community/cli": "18.0.0",
     "@react-native-community/cli-platform-android": "18.0.0",
     "@react-native-community/cli-platform-ios": "18.0.0",
