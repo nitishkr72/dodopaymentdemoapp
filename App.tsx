@@ -23,7 +23,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import {DodoPaymentProvider} from 'dodopayment-sdk-react-native';
+import {DodoPaymentProvider} from 'dodopayments-sdk-react-native';
 import PaymentScreen from './src/PaymentScreen';
 
 

@@ -8,7 +8,7 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-import { useCheckout, type sessionParams } from 'dodopayment-sdk-react-native';
+import { useCheckout, type sessionParams } from 'dodopayments-sdk-react-native';
 import fetchPaymentParams from './utils/fetchPaymentParams';
 import Button from './Components/Button';
 

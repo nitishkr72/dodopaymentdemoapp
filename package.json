@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "dodopayment-sdk-react-native": "^0.3.1",
+    "dodopayments-sdk-react-native": "^0.0.1",
     "react": "19.0.0",
     "react-native": "0.79.3",
     "react-native-code-push": "^9.0.1",
@@ -20,7 +20,7 @@
     "react-native-pager-view": "^6.8.1",
     "react-native-safe-area-context": "^5.4.1",
     "react-native-screens": "^4.11.1",
-    "react-native-svg": "^15.12.0"
+    "react-native-svg": "^13.13.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
