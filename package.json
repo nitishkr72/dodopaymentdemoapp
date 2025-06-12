@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "dodopayments-sdk-react-native": "^0.0.3",
+    "dodopayments-sdk-react-native": "^0.0.5",
     "react": "19.0.0",
     "react-native": "0.79.3",
     "react-native-code-push": "^9.0.1",
