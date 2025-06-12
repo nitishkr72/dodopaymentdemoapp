@@ -7,13 +7,9 @@ import {
   View,
 } from 'react-native';
 
-import {
-  Colors,
-} from 'react-native/Libraries/NewAppScreen';
-import {DodoPaymentProvider} from 'dodopayments-sdk-react-native';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
+import {DodoPaymentsProvider} from 'dodopayments-sdk-react-native';
 import PaymentScreen from './src/PaymentScreen';
-
-
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -25,7 +21,8 @@ function App(): React.JSX.Element {
   const safePadding = '5%';
 
   return (
-    <DodoPaymentProvider publishableKey={process.env.DODO_PAYMENTS_PUBLISHABLE_KEY}>
+    <DodoPaymentsProvider
+      publishableKey={'pk_snd_091bba0fefcd4852a44cccdcf47602b5'}>
       <View style={backgroundStyle}>
         <StatusBar
           barStyle={isDarkMode ? 'light-content' : 'dark-content'}
@@ -38,14 +35,14 @@ function App(): React.JSX.Element {
               paddingHorizontal: safePadding,
               paddingBottom: safePadding,
               height: '100%',
-              display: "flex",
-              flexDirection: "column",
+              display: 'flex',
+              flexDirection: 'column',
             }}>
             <PaymentScreen />
           </View>
         </ScrollView>
       </View>
-    </DodoPaymentProvider>
+    </DodoPaymentsProvider>
   );
 }
 

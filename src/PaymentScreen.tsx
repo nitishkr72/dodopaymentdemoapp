@@ -68,7 +68,7 @@ const PaymentScreen = () => {
             },
           },
         },
-        env: "sandbox"
+        env: "prod"
       },
     };
     const paymentSheetResponse = await presentPaymentSheet(params);
